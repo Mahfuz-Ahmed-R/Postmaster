@@ -12,7 +12,7 @@ const Sidebar = () => {
   return (
     <Menu theme='dark' mode='inline' defaultSelectedKeys={['home']}>
       <Menu.Item key='home' icon={<HomeOutlined />}>
-        <Link to='/home'>Dashboard</Link>
+        <Link to='/'>Dashboard</Link>
       </Menu.Item>
       <Menu.Item key='add-post' icon={<PlusCircleOutlined />}>
         <Link to='/add-post'>Add Post</Link>
